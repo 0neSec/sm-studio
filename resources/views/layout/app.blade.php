@@ -16,13 +16,14 @@
     @stack('prepend-style')
     @include('component.style')
     @stack('addon-style')
+    @vite(['resources/sass/app.scss', 'resources/js/app.js'])
   </head>
 
   <body>
     <main>
     {{-- Site Header --}}
     @include('component.site-header')
-    
+
     <!-- Navbar -->
     @include('component.navbar')
 
@@ -39,7 +40,7 @@
     </main>
 
 
-    
+
 
     <!-- Footer -->
     @include('component.footer')
