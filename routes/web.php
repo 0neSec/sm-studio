@@ -21,6 +21,8 @@ use App\Http\Controllers\PostController;
 Route::get('/', function () {
     return view('pages.Home');
 });
+
+
 Route::get('/studio',[PostController::class,'index']);
 Route::get('/admin/create',[PostController::class,'create']);
 Route::post('/admin/studio',[PostController::class,'store']);

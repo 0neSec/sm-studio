@@ -5,6 +5,7 @@
 @endsection
 
 @section('content-1')
+@include('component.navbar')
 @include('component.Home.hero')
 @endsection
 
@@ -28,7 +29,7 @@
 @include('component.Contact.contact')
 @endsection
 
-{{-- 
+{{--
 @section('content-7')
 @include('components.Home.ask')
 @endsection

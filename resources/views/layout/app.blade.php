@@ -25,7 +25,7 @@
     @include('component.site-header')
 
     <!-- Navbar -->
-    @include('component.navbar')
+   
 
     <!-- Page Content -->
 
