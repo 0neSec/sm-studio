@@ -18,9 +18,17 @@ use App\Http\Controllers\PostController;
 //     return view('welcome');
 // });
 
-Route::get('/', function () {
-    return view('pages.Home');
-});
+// Route::get('/', function () {
+//     return view('pages.Home');
+// });
+
+// landing page
+Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/page-studio', [StudioController::class,'index'])->name('studio');
+Route::get('/page-contact', [ContactController::class,'index'])->name('contact');
+Route::get('/page-buy-ticket', [TicketController::class,'index'])->name('ticket');
+
+
 
 
 Route::get('/studio',[PostController::class,'index']);

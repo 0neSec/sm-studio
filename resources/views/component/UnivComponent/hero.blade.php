@@ -23,7 +23,7 @@
                 <div class="location-wrap mx-auto py-3 py-lg-0">
                     <h5 class="text-white">
                         <i class="custom-icon bi-geo-alt me-2"></i>
-                        National Center, United States
+                        Brebes, Indonesia
                     </h5>
                 </div>
 
