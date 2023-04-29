@@ -10,12 +10,11 @@
 
                     <h6 class="text-white mt-4">Once in Lifetime Experience</h6>
 
-                    <p class="text-white">You are not allowed to redistribute the template ZIP file on any other
-                        website without a permission.</p>
+                    <p class="text-white">Jadikan momenmu lebih berarti dengan memilih tempat studio foto yang terbaik</p>
 
                     <h6 class="text-white mt-4">Whole Night Party</h6>
 
-                    <p class="text-white">Please tell your friends about our website. Thank you.</p>
+                    <p class="text-white">Rekomendasi Tempat Studi dengan fasilitas unggulan</p>
                 </div>
             </div>
 
@@ -32,7 +31,7 @@
                         <div class="ms-4">
                             <h3>a happy moment</h3>
 
-                            <p class="mb-0">your amazing festival experience with us</p>
+                            <p class="mb-0">Abadikan momenmu bersama pasangan, sahabat ataupun keluarga</p>
                         </div>
                     </div>
                 </div>
