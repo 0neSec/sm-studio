@@ -15,4 +15,10 @@ class HomeController extends Controller
          $post = Post::all();
          return view('pages.Home',compact(['post']));
      }
+     public function show($id)
+ {
+    # code...
+    $post = Post::find($id);
+    return view('pages.showStudio', compact(['detail']));
+ }
 }

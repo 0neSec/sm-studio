@@ -25,6 +25,7 @@ use App\Http\Controllers\StudioController;
 
 // landing page
 Route::get('/', [HomeController::class,'index'])->name('home');
+// Route::get('/studio/show/{id}', [HomeController::class,'show']);
 Route::get('/page-studio', [StudioController::class,'index'])->name('studio');
 Route::get('/page-contact', [ContactController::class,'index'])->name('contact');
 Route::get('/page-buy-ticket', [TicketController::class,'index'])->name('ticket');

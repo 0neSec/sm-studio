@@ -47,7 +47,7 @@ class PostController extends Controller
 
         $filename= uniqid().'.'. $file->getClientOriginalExtension();
        $file->storeAs('public/image',$filename);
-       $data['image']= $fileName;
+       $data['image']= $filename;
         // if($request->hasFile('image')){
         //     // get filename with the extention
         //     $fileNameWithExt = $request->file('image')->getClientOrginalName();

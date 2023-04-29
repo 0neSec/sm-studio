@@ -33,9 +33,9 @@
             <td>{{ $item->hp }}</td>
             <td>{{ $item->email }}</td>
             <td>{{ $item->content }}</td>
-            <td>
+            {{-- <td>
                <a href="/admin/Detail/{{ $item->id }}"><button type="button" class="btn btn-success">Detail</button></a>
-            </td>
+            </td> --}}
             <td>
                <a href="/admin/edit/{{ $item->id }}"><button type="button" class="btn btn-success">Edit</button></a>
             </td>
