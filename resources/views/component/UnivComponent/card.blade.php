@@ -9,24 +9,24 @@
             <div class="col-lg-5 col-12">
                 <div class="artists-thumb">
                     <div class="artists-image-wrap">
-                        <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
+                        <img src="images/studio-3.jpg"
                             class="artists-image img-fluid">
                     </div>
 
                     <div class="artists-hover">
                         <p>
-                            <strong>Name:</strong>
-                            Madona
+                            <strong>Nama Tempat :</strong>
+                            Madona Studio
                         </p>
 
                         <p>
-                            <strong>Birthdate:</strong>
-                            August 16, 1958
+                            <strong>Lokasi :</strong>
+                            Brebes
                         </p>
 
                         <p>
-                            <strong>Music:</strong>
-                            Pop, R&amp;B
+                            <strong>Tema :</strong>
+                            Romantic
                         </p>
 
                         <hr>
@@ -42,24 +42,24 @@
             <div class="col-lg-5 col-12">
                 <div class="artists-thumb">
                     <div class="artists-image-wrap">
-                        <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
+                        <img src="images/studio.jpg"
                             class="artists-image img-fluid">
                     </div>
 
                     <div class="artists-hover">
                         <p>
-                            <strong>Name:</strong>
-                            Rihana
+                            <strong>Nama Studio :</strong>
+                            Rihana Studio
                         </p>
 
                         <p>
-                            <strong>Birthdate:</strong>
-                            Feb 20, 1988
+                            <strong>Lokasi :</strong>
+                            Tegal
                         </p>
 
                         <p>
-                            <strong>Music:</strong>
-                            Country
+                            <strong>Tema :</strong>
+                            Casual
                         </p>
 
                         <hr>
@@ -72,23 +72,23 @@
                 </div>
 
                 <div class="artists-thumb">
-                    <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
+                    <img src="images/studio-2.jpg"
                         class="artists-image img-fluid">
 
                     <div class="artists-hover">
                         <p>
-                            <strong>Name:</strong>
-                            Bruno Bros
+                            <strong>Nama Studio :</strong>
+                            Bruno Studio
                         </p>
 
                         <p>
-                            <strong>Birthdate:</strong>
-                            October 8, 1985
+                            <strong>Lokasi :</strong>
+                            Pemalang
                         </p>
 
                         <p>
-                            <strong>Music:</strong>
-                            Pop
+                            <strong>Tema :</strong>
+                            Aesthetic
                         </p>
 
                         <hr>

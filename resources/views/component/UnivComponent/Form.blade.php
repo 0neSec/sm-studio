@@ -23,7 +23,7 @@
                         </div>
 
                         <input type="tel" class="form-control" name="ticket-form-phone"
-                            placeholder="Ph 085-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
+                            placeholder="No Telp" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required="">
 
                         <h6>Choose Ticket Type</h6>
 
@@ -33,7 +33,7 @@
                                     <input class="form-check-input" type="radio" name="TicketForm"
                                         id="flexRadioDefault1">
                                     <label class="form-check-label" for="flexRadioDefault1">
-                                        Eary bird $120
+                                        Medium 200rb
                                     </label>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@
                                     <input class="form-check-input" type="radio" name="TicketForm"
                                         id="flexRadioDefault2">
                                     <label class="form-check-label" for="flexRadioDefault2">
-                                        Standard $240
+                                        Reguler 300rb + Fotografer
                                     </label>
                                 </div>
                             </div>
