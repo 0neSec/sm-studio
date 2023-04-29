@@ -16,7 +16,7 @@ return new class extends Migration
         Schema::create('posts', function (Blueprint $table) {
             $table->id();
             $table->string('tempat');
-            $table->string('image');
+            $table->string('image',128)->nullable();
             $table->string('alamat');
             $table->string('hp');
             $table->string('email');
@@ -35,3 +35,5 @@ return new class extends Migration
         Schema::dropIfExists('posts');
     }
 };
+
+

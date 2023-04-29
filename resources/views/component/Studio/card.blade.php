@@ -1,106 +1,38 @@
-<section class="artists-section section-padding" id="section_3">
-    <div class="container">
-        <div class="row justify-content-center">
+<div class="page-content page-container" id="page-content">
+    <div class="padding">
+        <div class="row container d-flex justify-content-center">
 
-            <div class="col-12 text-center">
-                <h2 class="mb-4">Tempat Studio</h1>
-            </div>
-
-            <div class="col-lg-5 col-12">
-                <div class="artists-thumb">
-                    <div class="artists-image-wrap">
-                        <img src="images/artists/joecalih-UmTZqmMvQcw-unsplash.jpg"
-                            class="artists-image img-fluid">
-                    </div>
-
-                    <div class="artists-hover">
-                        <p>
-                            <strong>Name:</strong>
-                            Madona
-                        </p>
-
-                        <p>
-                            <strong>Birthdate:</strong>
-                            August 16, 1958
-                        </p>
-
-                        <p>
-                            <strong>Music:</strong>
-                            Pop, R&amp;B
-                        </p>
-
-                        <hr>
-
-                        <p class="mb-0">
-                            <strong>Youtube Channel:</strong>
-                            <a href="#">Madona Official</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-5 col-12">
-                <div class="artists-thumb">
-                    <div class="artists-image-wrap">
-                        <img src="images/artists/abstral-official-bdlMO9z5yco-unsplash.jpg"
-                            class="artists-image img-fluid">
-                    </div>
-
-                    <div class="artists-hover">
-                        <p>
-                            <strong>Name:</strong>
-                            Rihana
-                        </p>
-
-                        <p>
-                            <strong>Birthdate:</strong>
-                            Feb 20, 1988
-                        </p>
-
-                        <p>
-                            <strong>Music:</strong>
-                            Country
-                        </p>
-
-                        <hr>
-
-                        <p class="mb-0">
-                            <strong>Youtube Channel:</strong>
-                            <a href="#">Rihana Official</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="artists-thumb">
-                    <img src="images/artists/soundtrap-rAT6FJ6wltE-unsplash.jpg"
-                        class="artists-image img-fluid">
-
-                    <div class="artists-hover">
-                        <p>
-                            <strong>Name:</strong>
-                            Bruno Bros
-                        </p>
-
-                        <p>
-                            <strong>Birthdate:</strong>
-                            October 8, 1985
-                        </p>
-
-                        <p>
-                            <strong>Music:</strong>
-                            Pop
-                        </p>
-
-                        <hr>
-
-                        <p class="mb-0">
-                            <strong>Youtube Channel:</strong>
-                            <a href="#">Bruno Official</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<div class="col-md-5">
+							<div class="card">
+								<div class="card-body text-center">
+									<div>
+										<img src="https://img.icons8.com/bubbles/100/000000/administrator-male.png" class="img-lg rounded-circle mb-4" alt="profile image">
+										<h4>Sam Disanjo</h4>
+										<p class="text-muted mb-0">Social Activist</p>
+									</div>
+									<p class="mt-2 card-text">
+											For what reason would it be advisable for me to think about business content?
+									</p>
+									<button class="btn btn-info btn-sm mt-3 mb-4">Follow</button>
+									<div class="border-top pt-3">
+										<div class="row">
+											<div class="col-4">
+												<h6>4354</h6>
+												<p>Post</p>
+											</div>
+											<div class="col-4">
+												<h6>455K</h6>
+												<p>Followers</p>
+											</div>
+											<div class="col-4">
+												<h6>34K</h6>
+												<p>Likes</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						</div>
+							</div>
+						</div>

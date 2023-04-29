@@ -4,7 +4,9 @@
 <div class="container my-5">
     <div class="row">
       <div class="col-md-6 mx-auto">
-        <form action="/admin/studio" method="POST">
+        {{-- {!! Post::open(['files' => true]) !!} --}}
+        <form action="/admin/studio" method="post" enctype="multipart/form-data">
+            {{-- {{ method_field('post') }} --}}
             @csrf
         <div class="form-group">
             <label class="form-control-placeholder" for="tempat">Name</label>
@@ -12,7 +14,7 @@
         </div>
         <div class="form-group">
             <label class="form-control-placeholder" for="image">Image</label>
-          <input type="text" name="image" class="form-control" required>
+          <input type="file" name="image" class="form-control" required>
         </div>
         <div class="form-group">
             <label class="form-control-placeholder" for="alamat">Alamat</label>

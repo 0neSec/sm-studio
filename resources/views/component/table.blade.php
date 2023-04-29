@@ -1,4 +1,9 @@
 <div class="col py-3">
+    {{-- @if (session('success'))
+    <div class="alert alert-success">
+        {{ $massage }}
+    </div>
+    @endif --}}
 <table class="table">
     <thead>
       <tr>
@@ -18,20 +23,24 @@
         $no = 1;
          @endphp
 
-        @foreach  ($view as $item)
+        @foreach  ($post as $item)
         <tr>
-            <th scope="row">{{ $no }}</th>
-            <td>{{ $item->tempat }}</td>
+            {{-- <th scope="row">{{ $no }}</th> --}}
+            <td>{{ $loop->iteration }}</td>
+            <td>{{ $item->tempat}}</td>
             <td>{{ $item->image }}</td>
             <td>{{ $item->alamat }}</td>
             <td>{{ $item->hp }}</td>
             <td>{{ $item->email }}</td>
             <td>{{ $item->content }}</td>
             <td>
+               <a href="/admin/Detail/{{ $item->id }}"><button type="button" class="btn btn-success">Detail</button></a>
+            </td>
+            <td>
                <a href="/admin/edit/{{ $item->id }}"><button type="button" class="btn btn-success">Edit</button></a>
             </td>
             <td>
-                <button type="button" class="btn btn-danger">Hapus</button>
+               <a href="admin/delete/{{ $item->id }}"> <button type="button" class="btn btn-danger">Hapus</button></a>
             </td>
 
           </tr>

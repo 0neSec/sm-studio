@@ -2,6 +2,7 @@
 namespace App\Http\Controllers;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PostController;
+use App\Http\Controllers\StudioController;
 
 /*
 |--------------------------------------------------------------------------
@@ -34,7 +35,7 @@ Route::get('/page-buy-ticket', [TicketController::class,'index'])->name('ticket'
 Route::get('/studio',[PostController::class,'index']);
 Route::get('/admin/create',[PostController::class,'create']);
 Route::post('/admin/studio',[PostController::class,'store']);
-Route::get('/admin/edit/{id}',[PostController::class,'edit']);
+Route::get('/admin/edit/{id}',[PostController::class,'update']);
 Route::get('/admin/delete/{id}',[PostController::class,'delete']);
 Route::put('/admin/{id}',[PostController::class,'update']);
 
