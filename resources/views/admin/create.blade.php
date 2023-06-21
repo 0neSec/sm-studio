@@ -1,11 +1,44 @@
-<h1>tambah data</h1>
-<form action="/admin/studio" method="POST">
-    @csrf
-    <input type="text" name="tempat">
-    <input type="text" name="image">
-    <input type="text" name="alamat">
-    <input type="text" name="hp">
-    <input type="text" name="email">
-    <input type="text" name="content">
-    <input type="submit" name="submit" value="save">
-</form>
+@extends('admin.app')
+
+@section('isi')
+<div class="container my-5">
+    <div class="row">
+      <div class="col-md-6 mx-auto">
+        {{-- {!! Post::open(['files' => true]) !!} --}}
+        <form action="/admin/studio" method="post" enctype="multipart/form-data">
+            {{-- {{ method_field('post') }} --}}
+            @csrf
+        <div class="form-group">
+            <label class="form-control-placeholder" for="tempat">Name</label>
+          <input type="text" name="tempat" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="form-control-placeholder" for="image">Image</label>
+          <input type="file" name="image" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="form-control-placeholder" for="alamat">Alamat</label>
+          <input type="text" name="alamat" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="form-control-placeholder" for="hp">Nomer Hp</label>
+          <input type="text" name="hp" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="form-control-placeholder" for="email">Email</label>
+          <input type="text" name="email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label class="form-control-placeholder" for="content">Deskripsi</label>
+          <input type="text" name="content" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <button type="submit" name="submit" class="btn btn-primary mt-3" value="save">Tambah</button>
+        </div>
+    </form>
+      </div>
+    </div>
+  </div>
+
+@endsection
+

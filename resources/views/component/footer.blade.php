@@ -85,7 +85,7 @@
                 <h5 class="site-footer-title mb-3">Location</h5>
 
                 <p class="text-white d-flex mt-3 mb-2">
-                    Silang Junction South, Tagaytay, Cavite, Philippines</p>
+                    Brebes, Indonesia</p>
 
                 <a class="link-fx-1 color-contrast-higher mt-3" href="#">
                     <span>Our Maps</span>

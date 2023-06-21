@@ -1,20 +1,24 @@
 @extends('layout.app')
 
 @section('title')
-    Home Page
+    Ticket Page
 @endsection
+
+{{-- @section('content-1')
+@include('component.navbar')
+@include('component.Home.hero')
+@endsection --}}
 
 @section('content-1')
-{{-- @include('component.navbar') --}}
-@include('component.UnivComponent.hero')
+@include('component.UnivComponent.Form')
 @endsection
 
-@section('content-2')
+{{-- @section('content-2')
 @include('component.Home.about')
 @endsection
 
 @section('content-3')
-@include('component.UnivComponent.card')
+@include('component.Home.card')
 @endsection
 
 @section('content-4')

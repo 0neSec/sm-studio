@@ -12,21 +12,22 @@
         </button>
 
         <div class="collapse navbar-collapse" id="navbarNav">
+            {{-- <center> --}}
             <ul class="navbar-nav align-items-lg-center ms-auto me-lg-5">
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_1">Home</a>
+                    <a class="nav-link" href="{{ route('home') }}">Home</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_2">Studio</a>
+                    <a class="nav-link" href="{{ route('studio')}}">Studio</a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link click-scroll" href="#section_3">Contact</a>
+                    <a class="nav-link" href="{{ route('contact') }}">Contact</a>
                 </li>
             </ul>
-
-            <a href="ticket.html" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
+            {{-- </center> --}}
+            <a href="{{ route('ticket') }}" class="btn custom-btn d-lg-block d-none">Buy Ticket</a>
         </div>
     </div>
 </nav>

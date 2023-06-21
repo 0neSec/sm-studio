@@ -1,7 +1,7 @@
 @extends('layout.app')
 
 @section('title')
-    Home Page
+    Contact Page
 @endsection
 
 @section('content-1')
@@ -10,11 +10,15 @@
 @endsection
 
 @section('content-2')
+@include('component.Contact.contact')
+@endsection
+
+{{-- @section('content-2')
 @include('component.Home.about')
 @endsection
 
 @section('content-3')
-@include('component.UnivComponent.card')
+@include('component.Home.card')
 @endsection
 
 @section('content-4')
